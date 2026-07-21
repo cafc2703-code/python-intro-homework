@@ -5,33 +5,33 @@ time = input("What time of day? ").strip().lower()
 
 if day == "monday":
     if time == "morning":
-        print("Suggestion: Review your weekly goals.")
+        print("Suggestion: Review your goals for the week.")
     elif time == "afternoon":
         print("Suggestion: Finish your homework.")
     elif time == "evening":
-        print("Suggestion: Read a book before bed.")
+        print("Suggestion: Read a book.")
     else:
-        print("Sorry, I don't recognize that time of day.")
+        print("Sorry, I don't recognize that time. Try: morning, afternoon, or evening.")
+
+elif day == "tuesday":
+    if time == "morning":
+        print("Suggestion: Practice Python.")
+    elif time == "afternoon":
+        print("Suggestion: Take a short walk.")
+    elif time == "evening":
+        print("Suggestion: Watch a coding video.")
+    else:
+        print("Sorry, I don't recognize that time. Try: morning, afternoon, or evening.")
 
 elif day == "wednesday":
     if time == "morning":
-        print("Suggestion: Practice Python for 30 minutes.")
+        print("Suggestion: Study for your classes.")
     elif time == "afternoon":
-        print("Suggestion: Take a short walk outside.")
+        print("Suggestion: Work on a small project.")
     elif time == "evening":
-        print("Suggestion: Watch a tutorial video.")
+        print("Suggestion: Relax with a movie.")
     else:
-        print("Sorry, I don't recognize that time of day.")
-
-elif day == "friday":
-    if time == "morning":
-        print("Suggestion: Finish your important tasks.")
-    elif time == "afternoon":
-        print("Suggestion: Meet with friends.")
-    elif time == "evening":
-        print("Suggestion: Relax and watch a movie.")
-    else:
-        print("Sorry, I don't recognize that time of day.")
+        print("Sorry, I don't recognize that time. Try: morning, afternoon, or evening.")
 
 else:
-    print("Sorry, I don't recognize that day.")
+    print("Sorry, I don't recognize that day. Try: Monday, Tuesday, or Wednesday.")
